@@ -44,7 +44,7 @@ module GData
         
         @headers ||= {}
         @http_service ||= GData::HTTP::DefaultService
-        @version ||= '2'
+        @version ||= '3'
         @source ||= 'AnonymousApp'
       end
       
